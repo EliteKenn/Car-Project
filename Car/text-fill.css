@@ -1,0 +1,16 @@
+.jfx-text-field
+{
+    -jfx-focus-color: WHITE
+}
+
+.text-field
+{
+    -fx-prompt-text-fill: WHITE; /*Yellow - floating label*/
+    -fx-text-fill: WHITE; /*Yellow - input color*/
+    -fx-highlight-fill: WHITE; /*Green*/
+}
+
+.text-field .input-line
+{
+    -fx-background-color: WHITE; /*Yellow - bottom bar*/
+}

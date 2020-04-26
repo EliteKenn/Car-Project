@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.Rating?>
+
+<AnchorPane fx:id="MarutiAnchor" prefHeight="540.0" prefWidth="597.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MarutiController">
+   <children>
+      <JFXButton contentDisplay="TOP" layoutX="58.0" layoutY="30.0" prefHeight="233.0" prefWidth="218.0" style="-fx-background-color: #373C4F;" text="Maruti Suzuki Alto 800" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/Maruti-Suzuki-Alto-800-Right-Front-Three-Quarter-72869.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <padding>
+            <Insets bottom="70.0" />
+         </padding>
+      </JFXButton>
+      <Label layoutX="95.0" layoutY="187.0" text="₹ 2.94 Lakhs onward" textFill="#f8f8f8">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Rating layoutX="79.0" layoutY="215.0" rating="3.0" />
+      <JFXButton contentDisplay="TOP" layoutX="322.0" layoutY="30.0" prefHeight="233.0" prefWidth="218.0" style="-fx-background-color: #373C4F;" text="Maruti Suzuki Celerio" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/celerio.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <padding>
+            <Insets bottom="70.0" />
+         </padding>
+      </JFXButton>
+      <Label layoutX="359.0" layoutY="187.0" text="₹ 4.07 Lakhs onward" textFill="#f8f8f8">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Rating layoutX="343.0" layoutY="215.0" rating="4.0" />
+      <JFXButton contentDisplay="TOP" layoutX="58.0" layoutY="277.0" prefHeight="223.0" prefWidth="218.0" style="-fx-background-color: #373C4F;" text="Maruti Suzuki Wagon" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/Maruti-Suzuki-Wagon-R-10-Right-Front-Three-Quarter-84031.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <padding>
+            <Insets bottom="70.0" />
+         </padding>
+      </JFXButton>
+      <Label layoutX="95.0" layoutY="435.0" text="₹ 4.16 Lakhs onward" textFill="#f8f8f8">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Rating layoutX="79.0" layoutY="460.0" rating="3.0" />
+      <JFXButton contentDisplay="TOP" layoutX="322.0" layoutY="277.0" prefHeight="223.0" prefWidth="218.0" style="-fx-background-color: #373C4F;" text="Maruti Suzuki Swift" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/swift.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <padding>
+            <Insets bottom="70.0" />
+         </padding>
+      </JFXButton>
+      <Label layoutX="359.0" layoutY="427.0" text="₹ 4.83 Lakhs onward" textFill="#f8f8f8">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Rating layoutX="343.0" layoutY="452.0" rating="3.0" />
+      <JFXButton fx:id="back" contentDisplay="GRAPHIC_ONLY" layoutX="540.0" layoutY="11.0" onAction="#backAction" prefHeight="39.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/Long%20Arrow%20Left_64px.png" />
+               </image>
+            </ImageView>
+         </graphic></JFXButton>
+   </children>
+</AnchorPane>

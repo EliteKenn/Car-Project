@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="home" prefHeight="540.0" prefWidth="597.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.HomeController">
+   <children>
+      <JFXButton fx:id="Maruti" contentDisplay="TOP" layoutX="38.0" layoutY="75.0" onAction="#marutiAction" prefHeight="177.0" prefWidth="221.0" style="-fx-background-color: #373C4F; -fx-border-color: #FFFFFF;" text="MARUTI SUZUKI" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="104.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/marutiS.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="hyundai" contentDisplay="TOP" layoutX="320.0" layoutY="75.0" onAction="#hyundaiAction" prefHeight="177.0" prefWidth="237.0" style="-fx-background-color: #373C4F; -fx-border-color: #FFFFFF;" text="HYUNDAI" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="104.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/huC.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="chevrolet" contentDisplay="TOP" layoutX="322.0" layoutY="288.0" onAction="#chevroletAction" prefHeight="177.0" prefWidth="233.0" style="-fx-background-color: #373C4F; -fx-border-color: #FFFFFF;" text="CHEVROLET" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="104.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/chevr.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="tataMotors" contentDisplay="TOP" layoutX="38.0" layoutY="288.0" onAction="#tataMotorsActioin" prefHeight="177.0" prefWidth="221.0" style="-fx-background-color: #373C4F;" text="TATA MOTORS" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="104.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/tata.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
